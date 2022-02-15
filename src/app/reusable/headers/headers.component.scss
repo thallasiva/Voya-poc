@@ -1,0 +1,47 @@
+.active {
+    border-bottom: 2px solid #f6b86e;
+    padding: 1rem 2rem !important;
+    border-radius: 5px;
+    color: #000;
+}
+.linkItem {
+    padding: 1rem 2rem !important;
+}
+.headerImg {
+    height: 60px;
+}
+
+.navbar-text {
+    border-right: 1px solid #ddd;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    background-color: #eee;
+}
+.callIcon {
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 1rem;
+}
+.userIcon {
+    border: 1px solid #29394a;
+    border-radius: 50%;
+    padding: 5px;
+
+    .noof {
+        font-size: 10px;
+        position: absolute;
+        background: #29394a;
+        color: #fff;
+        padding: 2px;
+        border-radius: 50%;
+        top: -3px;
+        
+        width: 12px;
+    }
+}
