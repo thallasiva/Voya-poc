@@ -4,6 +4,7 @@ import { HeadersComponent } from './headers/headers.component';
 import { FootersComponent } from './footers/footers.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { Router, RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 export const routes:Routes = [
   {
@@ -33,6 +34,7 @@ export const routes:Routes = [
   ],
   imports: [
     CommonModule,
+    FormsModule,
     RouterModule.forChild(routes),
   ]
 })
